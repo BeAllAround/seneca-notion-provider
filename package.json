@@ -48,7 +48,7 @@
   },
   "peerDependencies": {
     "@seneca/env": ">=0.2",
-    "@seneca/provider": ">=0.5",
+    "@seneca/provider": ">=1.0.1",
     "seneca": ">=3",
     "seneca-entity": ">=17",
     "seneca-promisify": ">=2"
@@ -56,6 +56,8 @@
   "devDependencies": {
     "@seneca/doc": "^4.2.4",
     "@seneca/maintain": "0.0.28",
+    "node-fetch": "^2.6.1",
+    "@seneca/provider": "^1.0.1",
     "@types/jest": "^28.1.3",
     "@types/node": "^18.0.0",
     "esbuild": "^0.14.47",
